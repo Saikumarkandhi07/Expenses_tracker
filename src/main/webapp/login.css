@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+
+
+
+ *
+        {
+            margin:0%;
+            padding:0%;
+        }
+        .dd{
+            
+            background-image: linear-gradient(whitesmoke,rgba(153, 50, 204,0.4));
+            height:615px;
+        }
+        .header
+        {
+            margin:0px;
+            padding:0px;
+            height:90px;
+            width:100%;
+            background-color: rgba(153, 50, 204,0.6);
+        }
+        div b{
+            position: absolute;
+            top:5%;
+            left:8%;
+            font-size: 25px;
+        }
+        .frm
+        {
+            
+            height:510px;
+            width:490px;
+            border-style: none;
+            background-color: white;
+            border-radius: 5px;
+            margin-top:20px;
+        }
+
+        #para
+        {
+                
+                font-size: 26px;
+                color:rgba(0, 0, 0,0.7);
+                padding-top:9px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .mainfrm
+        {
+            height:410px;
+            width:370px;
+            padding-top:10px;
+            
+        }
+        div a{
+            
+            color:black;
+        }
+        div button
+        {
+            height:44px;
+            width:150px;
+            border-style: none;
+            padding:10px;
+            border-radius:5px;
+        }
+        #gb
+        {
+            background-color: white;
+            border-style: solid;
+            border-color: lightgrey;
+        }
+input
+{
+    height:44px;
+    background-color:rgba(211, 211, 211,0.5);
+    border-style: none;
+    width:317px;
+    border-radius: 5px;
+    margin-top:6px;
+}
+label{
+    margin-right:240px;
+    
+}
+#bt
+{
+    background-color: black;
+    color:white;
+}
+  

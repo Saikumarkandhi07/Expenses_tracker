@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+
+
+
+
+ *
+        {
+            margin:0%;
+            padding:0%;
+        }
+        .header
+        {
+            margin:0px;
+            padding:0px;
+            height:90px;
+            width:100%;
+            background-color: rgba(153, 50, 204,0.6);
+        }
+
+        div b{
+            position: absolute;
+            top:5%;
+            left:8%;
+            font-size: 25px;
+        }
+        body
+        {
+            background-image: url("bg.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size:cover;
+        }
+        #parent
+        {
+           margin-left:70px;
+           margin-top:40px;
+           height:545px;
+           width:90%; 
+           background-image: linear-gradient(to bottom left,rgb(255, 170, 0),yellow,rgb(174, 46, 46),rgba(0, 0, 255, 0.523));
+
+        }
+        .child1
+        {
+            float:left;
+           
+           padding-left:130px;
+           padding-top:110px;
+
+        }
+        .child2
+        {
+            float:right;
+            padding-right:200px;
+            padding-top: 100px;
+
+        }
+        #lb
+        {
+            border-radius: 100px;
+            border-style:none;
+            color:grey;
+            height:45px;
+            width:150px;
+            padding-left:10px;
+
+        }
+        input
+        {
+            width:320px;
+            height:44px;
+            border-radius: 100px;
+            border-style:none;
+            color:grey;
+            padding-left: 20px;
+        }
+        textarea
+        {
+            width:320px;
+            height:110px;
+            border-radius: 20px;
+            border-style:none;
+            color:grey;
+            padding-left: 20px;
+        }
+        h3
+        {
+            position:absolute;
+            right:25%;
+            top:25%;
+        }
+        .header #dd
+        {
+            font-size:large;
+            position:absolute;
+            right:18%;
+            top:5%;
+            text-decoration: none;
+            color:black;
+        }
