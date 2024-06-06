@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+
+
+*
+        {
+            margin:0%;
+            padding:0%;
+        }
+        .header
+        {
+            margin:0px;
+            padding:0px;
+            height:90px;
+            width:100%;
+            background-color: rgba(153, 50, 204,0.6);
+        }
+
+        div b{
+            position: absolute;
+            top:5%;
+            left:8%;
+            font-size: 25px;
+        }
+        body
+        {
+            background-image: url("bg.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size:cover;
+        }
+        .maib
+        {
+          border-style: none;
+           padding-top:8px;
+           height:530px;
+           width:70%;
+           background-image: linear-gradient(to bottom,lightgreen,rgba(255, 255, 0,0.5),rgba(255, 166, 0,0.5),rgba(138, 43, 227,0.3));
+        }
+        div div
+        {
+            margin-top:50px;
+        }
+        h2{
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: 6px;
+        }
+        input
+        {
+            height:70px;
+            width:700px;
+            border-style:none;
+            border-bottom-style:solid;
+            font-size: 20px;
+            font-style: oblique;
+            color:red;
+            text-align: center;
+            box-shadow:2px 2px 5px 5px grey;
+        }
+        input::placeholder
+        {
+            color:red;
+            padding-left:30px;
+
+        }
+        label
+        {
+            font-size: large;
+            font-weight: bold;
+
+        }
+        .lb
+        {
+            height:50px;
+            width:140px;
+            border-style:none;
+            background-color:blueviolet;
+            color:white;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        .header #dd
+        {
+            font-size:large;
+            position:absolute;
+            right:18%;
+            top:5%;
+            text-decoration: none;
+            color:black;
+        }

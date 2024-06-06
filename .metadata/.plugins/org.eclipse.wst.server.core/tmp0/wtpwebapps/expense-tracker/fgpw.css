@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+
+
+*
+        {
+            margin:0%;
+            padding:0%;
+        }
+        .header
+        {
+            margin:0px;
+            padding:0px;
+            height:90px;
+            width:100%;
+            background-color: rgba(153, 50, 204,0.6);
+        }
+        div b{
+            position: absolute;
+            top:5%;
+            left:8%;
+            font-size: 25px;
+        }
+       
+        #im
+        {
+            float:left;
+            margin-left:13%;
+            margin-top:4%;
+        }
+        #frm
+        {
+            float:right;
+            margin-right:16%;
+            margin-top:13%;
+            height:170px;
+            width:380px;
+            background-color: rgba(153, 50, 204,0.7);
+            box-shadow:2px 2px 4px 3px grey;
+        }
+        #frm div{
+            padding:12px;
+        }
+        div h4{
+            letter-spacing:2px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 28px;
+            font-weight: 100;
+            text-shadow: 2px 2px grey;
+        }
+        div input
+        {
+            height:41px;
+            width:88%;
+            border-style:none;
+            color:rgba(0, 0, 255,0.9);
+            letter-spacing: 1px;
+            font-size:medium;
+            text-align: center;
+          
+        }
+        input:focus
+        {
+            box-shadow: 3px 3px 3px 2px lightgrey;
+        }
+        input::placeholder
+        {
+            text-align: center;
+            font-size:16px;
+            font-style: oblique;
+           
+        }
+        .bta
+        {
+            border-style:none;
+            background-color:rgba(0, 0, 255,0.6);
+            height:30px;
+            width:90px;
+            border-radius: 100px;
+            color:white;
+            font-size:medium;
+            letter-spacing: normal;
+        }
+		
+        body
+        {
+            background-image: url(media/bg.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }

@@ -1,0 +1,74 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+    <script src="https://kit.fontawesome.com/c51795afff.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="media/expenses-removebg-preview (1).png">
+
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="header">
+  <a href="index.jsp"> <img src="media/expenses-removebg-preview (1).png" style="height:47px;width:47px;padding:22px;margin-left:33px;"> </a>    <b>Spring Expenses Tracker</b>
+    </div>
+    <div class="dd">
+        <center>
+            <br>
+        <div class="frm">
+            <center>    <h2 id="para">Sign In With</h2></center>
+
+            <div class="mainfrm">
+<br>
+                <button style="background-color: rgba(61, 64, 139,0.9);"><a href="https://www.facebook.com/" style="color:white;"><img src="media/facebook-removebg-preview.png "  height="14px" width="14px" >  &nbsp; Facebook</a></button>&nbsp;&nbsp; &nbsp;&nbsp;                <button id="gb"><a href="https://www.google.co.in/"><img src="media/search-removebg-preview.png" height="14px" width="14px">&nbsp;Google</a></button>
+            
+<br><br>
+<br>
+<form method="post" action="Login">
+     <label for="username" ><i class="fa-solid fa-user"></i> username</label><br>
+     <input type="text" required id="username" autocomplete="off" name="username">
+<br><br>
+<label for="password" style="margin-right: 170px;"><i class="fa-solid fa-key"></i> password &nbsp;&nbsp;&nbsp;<a href="forgotpassword.jsp">Forgot?</a></label><br>
+<input type="password" required id="password" autocomplete="off" name="password">
+<br><br>
+<input type="submit" value="Sign in" id="bt">
+</form><br>
+<%
+String message=(String) request.getAttribute("msg");
+if(message !=null)
+{
+%>
+<h4><%= message %></h4>
+<script>alert('<%= message %>');</script>
+
+<br>
+<%}
+%>
+Not a memeber?&nbsp;&nbsp;<a href="register.jsp" target="_blank">Signup now</a>
+            </div>
+        </div>
+        </center>
+    </div>
+    <%
+   String m=(String) request.getAttribute("signup_msg");
+    if(m!=null){
+    %>
+    <script>
+    alert('<%= m %>')
+    
+    </script>
+    <%} %>
+    
+    
+    <%
+   String lomsg= (String) request.getAttribute("logout");
+    if(lomsg!=null){
+    %>
+    <script>alert('<%=lomsg%>')</script>
+    <%} %>
+</body>
+
+
+</html>
