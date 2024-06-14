@@ -16,6 +16,7 @@ import com.jsp.expensetracker.entity.Expense;
 import com.jsp.expensetracker.entity.User;
 import com.jsp.expensetracker.service.ExpenseService;
 import com.jsp.expensetracker.service.ExpenseServiceImpl;
+
 @WebServlet("/AddExpense")
 public class AddExpense extends HttpServlet {
 
@@ -46,7 +47,7 @@ public class AddExpense extends HttpServlet {
 			List<Expense> list=expenseService.viewExpense(user.getUserId());
 			request.setAttribute("expenseslist", list);
 
-			request.setAttribute("succ", "Expense Added Succesfuuly");
+			request.setAttribute("succ", "Expense Added Succesfully");
 			RequestDispatcher dispatcher=request.getRequestDispatcher("ViewExpenses");
 			dispatcher.include(request, response);
 		}

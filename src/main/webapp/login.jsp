@@ -22,7 +22,7 @@
 
             <div class="mainfrm">
 <br>
-                <button style="background-color: rgba(61, 64, 139,0.9);"><a href="#" style="color:white;"><img src="media/facebook-removebg-preview.png "  height="14px" width="14px" >  &nbsp; Facebook</a></button>&nbsp;&nbsp; &nbsp;&nbsp;                <button id="gb"><a href="#"><img src="media/search-removebg-preview.png" height="14px" width="14px">&nbsp;Google</a></button>
+                <button style="background-color: rgba(61, 64, 139,0.9);"><a href="https://www.facebook.com/" style="color:white;"><img src="media/facebook-removebg-preview.png "  height="14px" width="14px" >  &nbsp; Facebook</a></button>&nbsp;&nbsp; &nbsp;&nbsp;                <button id="gb"><a href="https://www.google.co.in/"><img src="media/search-removebg-preview.png" height="14px" width="14px">&nbsp;Google</a></button>
             
 <br><br>
 <br>

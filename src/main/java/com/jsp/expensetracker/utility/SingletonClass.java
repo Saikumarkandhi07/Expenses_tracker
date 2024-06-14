@@ -31,7 +31,7 @@ public class SingletonClass {
 		
 		public  Connection getConnect()
 		{
-			String url="jdbc:mysql://localhost:3306/expensetracker51?user=root&password=12345";
+			String url="jdbc:mysql://localhost:3306/expencetracker51?user=root&password=12345";
 			try {
 				
 					Class.forName("com.mysql.jdbc.Driver");
